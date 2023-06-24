@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+    --blanco: #F4F4F4;
+    --gris: #35424A;
+    --barra: #24282B;
+    --azul: #0094d4;
+    --marca: #1293D1;
+    --boton: #E8491D;
+    --caja: #E6E6E6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+main {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+/* BARRA DE NAVEGACION */
+
+nav {
+    background-color: var(--barra);
+    width: 100%;
+    height: 105px;
+    font-size: 15px;
+    border-bottom: 5px #0094d4 solid;
+}
+
+nav ul li {
+    float: left;
+    padding: 45px 27px;
+    list-style: none;
+}
+
+nav ul {
+    float: right;
+    padding-right: 130px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.inicio {
+    color: var(--azul);
+}
+
+.nosotros {
+    color: var(--azul);
+}
+
+.servicios {
+    color: var(--azul);
+}
+
+.contactanos {
+    color: var(--azul);
+}
+
+h3 {
+    padding: 30px 130px;
+    font-size: 30px;
+    float: left;
+    color: var(--blanco);
+}
+
+h2 {
+    color: var(--blanco);
+}
+
+span {
+    color: #1293D1;
+}
+
+/* CABEZERA DE LA PAGINA */
+
+.dos {
+    width: 100%;
+    height: 400px;
+    background: url("../images/cabecera.jpg") center no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 60px;
+    padding-top: 100px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    padding: 20px 180px;
+}
+
+/* PARTE PARA SUSCRIBIRSE EN LA PAGINA */
+
+.suscribete {
+    height: 90px;
+    background: #24282b;
+}
+
+.subt {
+    float: left;
+    padding: 30px 150px;
+}
+
+.sub {
+    padding: 30px 150px;
+}
+
+.btn {
+    float: right;
+    padding: 10px 20px;
+    background: #E8491D;
+}
+
+.email {
+    float: right;
+    padding: 2px;
+}
+
+.campo{
+    height: 33px;
+    width: 260px;
+}
+
+/* CUERPO DE LA PAGINA */
+
+.contenedor h4 {
+    padding: 20px;
+}
+
+.texto {
+    padding: 0 20px 20px;
+    font-size: 15px;
+}
+
+.cuerpo {
+    margin: 20px 130px;
+}
+
+.contenedor {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+.contenedor img {
+    width: 90px;
+}
+
+/* PIE DE PAGINA */
+
+footer {
+    background-color: var(--azul);
+    height: 80px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.pie {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 14px;
+    color: var(--blanco);
+}
+
+/* PAGINA NOSOTROS */
+
+.text h4 {
+    text-align: left;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.text {
+    margin-left: 130px;
+    float: left;
+    overflow: hidden;
+    padding: 10px 0;
+    width: 740px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.text2 h5 {
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.text2 p {
+    padding: 0 15px 15px 0;
+}
+
+.text2 {
+    margin: 20px 100px 0 0;
+    padding: 20px;
+    float: right;
+    background-color: var(--gris);
+    width: 300px;
+    height: 170px;
+    color: var(--blanco);
+}
+
+.text3 {
+    margin-left: 130px;
+    overflow: hidden;
+    padding: 20px;
+    width: 700px;
+    text-align: justify;
+    background-color: var(--gris);
+    color: var(--blanco);
+}
+
+.imagen {
+    margin: 10px 130px 10px;
+}
+
+.cafe {
+    width: 740px;
+}
+
+/* PAGINA SERVICIOS */
+
+.titulo-caja {
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.descripcion {
+    padding-bottom: 10px;
+}
+
+.caja {
+    margin: 5px 0 5px 130px;
+    padding: 30px 20px;
+    background-color: var(--caja);
+    border: 2px solid #DCDCDC;
+    width: 700px;
+    height: 100px;
+    float: left;
+}
+
+/* PAGINA CONTACTO */
+
+.mapa img{
+    width: 340px;
+    height: 270px;
+}
+
+.mapa{
+    float: right;
+    margin: 10px 100px 20px 0;
+}
+
+.formulario{
+    margin: 30px 0 20px 130px;
+}
+
+article#datos{
+    float:left;
+    width:700px;
+}
+  
+input, textarea{
+    width: 100%;
+    height: 35px;
+    border: 1px solid gray; 
+    margin-bottom: 5px;
+}
+  
+textarea{
+    height: 120px;
+}
+  
+input[type='submit']{
+    background-color: #e8491d;
+    color: #fff;  
+}
+  
